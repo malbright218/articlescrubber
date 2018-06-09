@@ -1,0 +1,72 @@
+body {
+    margin: 10px;
+}
+
+
+#title {
+    text-align: center;
+    font-family: 'Fugaz One', cursive;
+    font-size: 60px;
+   
+}
+
+.input-group-prepend {
+    width: 15%;
+    text-align: right;
+}
+.input-group-text {
+    width: 100%;
+    text-align: right;
+}
+
+#articletitle {
+    background-color: #107696;
+    color: white;
+    font-size: 18px;
+    font-family: 'Old Standard TT', serif;
+}
+
+.jumbotron {
+    background-color: #107696;
+    color: white;
+}
+
+#basic-addon1, #basic-addon2, #basic-addon3, #basic-addon4, #submit-button {
+    background-color: #107696;
+    color: white;
+}
+
+#card-returns {
+    border: none;
+}
+
+.card-body {
+    background-color: #f2f2f2;
+    
+}
+
+#articlesnippet, #articlelink {
+    font-family: 'Questrial', sans-serif;
+    color: #808080;
+}
+
+/* ======== Media Queries Below ======== */
+@media only screen and (max-width: 1050px) {
+    .input-group-text, .input-group-prepend {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .input-group-text, .input-group-prepend {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 710px) {
+    .input-group-text, .input-group-prepend {
+        font-size: 8px;
+    }
+    .input-group-prepend {
+        width: 22%;
+    }
+}
